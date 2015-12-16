@@ -309,10 +309,10 @@ local function resolveQuestHostUrl(url)
 		return questHost .. hostParts[1] .. components.filepath
 	end
 	if tld == 'tar' and #hostParts == 2 then
-		return "http://65.26.252.225/quest/tar/" .. hostParts[1] .. components.filepath
+		return "http://ceriat.net/quest/tar/" .. hostParts[1] .. components.filepath
 	end
 	if tld == 'dia' and #hostParts == 2 then
-		return "http://65.26.252.225/quest/dia/" .. hostParts[1] .. components.filepath
+		return "http://ceriat.net/quest/dia/" .. hostParts[1] .. components.filepath
 	end
 	return url
 end
